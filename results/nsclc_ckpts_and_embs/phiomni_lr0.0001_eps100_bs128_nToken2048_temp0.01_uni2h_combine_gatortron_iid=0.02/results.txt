@@ -1,0 +1,54 @@
+Dataset: [cptac_lscc]
+  Evaluation Type: probing
+    Task: arid1a          | k=1  | auc=48.132 +/- 6.631, bacc=48.472 +/- 6.071
+    Task: arid1a          | k=5  | auc=62.222 +/- 5.547, bacc=59.527 +/- 5.117
+    Task: arid1a          | k=10 | auc=66.936 +/- 7.652, bacc=64.803 +/- 7.468
+    Task: arid1a          | k=25 | auc=84.939 +/- 4.976, bacc=76.201 +/- 5.276
+    Task: keap1           | k=1  | auc=54.408 +/- 9.535, bacc=49.807 +/- 7.170
+    Task: keap1           | k=5  | auc=68.124 +/- 4.582, bacc=62.361 +/- 4.926
+    Task: keap1           | k=10 | auc=73.760 +/- 6.366, bacc=68.547 +/- 5.498
+    Task: keap1           | k=25 | auc=88.272 +/- 4.954, bacc=82.156 +/- 4.882
+  Evaluation Type: prototyping
+    Task: arid1a          | k=1  | auc=48.213 +/- 6.885, bacc=47.574 +/- 5.420
+    Task: arid1a          | k=5  | auc=61.189 +/- 6.281, bacc=57.261 +/- 3.940
+    Task: arid1a          | k=10 | auc=62.088 +/- 8.149, bacc=58.545 +/- 5.845
+    Task: arid1a          | k=25 | auc=70.496 +/- 4.236, bacc=65.102 +/- 4.176
+    Task: keap1           | k=1  | auc=54.309 +/- 9.897, bacc=50.385 +/- 6.674
+    Task: keap1           | k=5  | auc=61.724 +/- 6.636, bacc=57.455 +/- 6.035
+    Task: keap1           | k=10 | auc=65.331 +/- 9.614, bacc=61.262 +/- 8.223
+    Task: keap1           | k=25 | auc=71.119 +/- 7.543, bacc=64.186 +/- 5.564
+--------------------------------------------------
+
+Dataset: [cptac_luad]
+  Evaluation Type: probing
+    Task: stk11           | k=1  | auc=70.626 +/- 10.582, bacc=60.405 +/- 8.179
+    Task: stk11           | k=5  | auc=81.987 +/- 9.359, bacc=72.472 +/- 10.910
+    Task: stk11           | k=10 | auc=88.776 +/- 3.377, bacc=81.328 +/- 4.776
+    Task: stk11           | k=25 | auc=93.293 +/- 1.276, bacc=87.353 +/- 3.277
+    Task: tp53            | k=1  | auc=54.298 +/- 6.905, bacc=52.740 +/- 5.891
+    Task: tp53            | k=5  | auc=60.172 +/- 5.237, bacc=56.558 +/- 5.149
+    Task: tp53            | k=10 | auc=67.067 +/- 4.492, bacc=62.227 +/- 4.197
+    Task: tp53            | k=25 | auc=81.132 +/- 3.889, bacc=72.776 +/- 4.512
+  Evaluation Type: prototyping
+    Task: stk11           | k=1  | auc=70.486 +/- 10.534, bacc=60.507 +/- 8.095
+    Task: stk11           | k=5  | auc=81.822 +/- 8.881, bacc=72.753 +/- 9.694
+    Task: stk11           | k=10 | auc=87.727 +/- 3.173, bacc=79.362 +/- 3.714
+    Task: stk11           | k=25 | auc=92.542 +/- 1.988, bacc=84.457 +/- 4.031
+    Task: tp53            | k=1  | auc=54.236 +/- 6.993, bacc=52.882 +/- 4.920
+    Task: tp53            | k=5  | auc=59.529 +/- 6.493, bacc=56.203 +/- 5.474
+    Task: tp53            | k=10 | auc=63.365 +/- 5.469, bacc=60.043 +/- 5.496
+    Task: tp53            | k=25 | auc=71.189 +/- 4.729, bacc=64.729 +/- 3.877
+--------------------------------------------------
+
+Dataset: [cptac_nsclc]
+  Evaluation Type: probing
+    Task: subtype         | k=1  | auc=82.063 +/- 12.200, bacc=74.224 +/- 9.800
+    Task: subtype         | k=5  | auc=97.345 +/- 1.737, bacc=90.887 +/- 3.842
+    Task: subtype         | k=10 | auc=98.750 +/- 0.543, bacc=93.652 +/- 1.607
+    Task: subtype         | k=25 | auc=99.379 +/- 0.213, bacc=95.941 +/- 1.084
+  Evaluation Type: prototyping
+    Task: subtype         | k=1  | auc=82.230 +/- 11.878, bacc=72.997 +/- 9.600
+    Task: subtype         | k=5  | auc=97.084 +/- 1.990, bacc=89.928 +/- 3.731
+    Task: subtype         | k=10 | auc=98.497 +/- 0.769, bacc=93.151 +/- 1.748
+    Task: subtype         | k=25 | auc=98.959 +/- 0.464, bacc=94.771 +/- 1.824
+--------------------------------------------------

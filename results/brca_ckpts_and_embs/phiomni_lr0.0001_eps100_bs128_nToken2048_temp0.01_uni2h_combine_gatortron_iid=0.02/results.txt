@@ -1,0 +1,41 @@
+Dataset: [BRACS]
+  Evaluation Type: probing
+    Task: coarse_subtype  | k=1  | auc=70.934 +/- 9.036, bacc=47.885 +/- 7.140
+    Task: coarse_subtype  | k=5  | auc=80.880 +/- 5.331, bacc=63.511 +/- 7.129
+    Task: coarse_subtype  | k=10 | auc=84.075 +/- 3.288, bacc=66.568 +/- 4.438
+    Task: coarse_subtype  | k=25 | auc=87.357 +/- 1.138, bacc=70.179 +/- 2.252
+    Task: fine_subtype    | k=1  | auc=65.245 +/- 2.563, bacc=27.598 +/- 2.925
+    Task: fine_subtype    | k=5  | auc=76.455 +/- 2.194, bacc=39.175 +/- 3.557
+    Task: fine_subtype    | k=10 | auc=79.907 +/- 1.030, bacc=42.774 +/- 2.957
+    Task: fine_subtype    | k=25 | auc=83.274 +/- 0.771, bacc=46.297 +/- 1.772
+  Evaluation Type: prototyping
+    Task: coarse_subtype  | k=1  | auc=70.669 +/- 9.159, bacc=46.188 +/- 6.542
+    Task: coarse_subtype  | k=5  | auc=84.642 +/- 2.568, bacc=65.733 +/- 4.178
+    Task: coarse_subtype  | k=10 | auc=86.749 +/- 2.303, bacc=69.603 +/- 2.914
+    Task: coarse_subtype  | k=25 | auc=88.136 +/- 1.207, bacc=70.611 +/- 3.071
+    Task: fine_subtype    | k=1  | auc=64.678 +/- 3.387, bacc=25.885 +/- 3.211
+    Task: fine_subtype    | k=5  | auc=76.851 +/- 1.557, bacc=38.085 +/- 2.645
+    Task: fine_subtype    | k=10 | auc=79.665 +/- 0.962, bacc=42.148 +/- 2.676
+    Task: fine_subtype    | k=25 | auc=82.262 +/- 0.763, bacc=43.360 +/- 3.201
+--------------------------------------------------
+
+Dataset: [cptac_brca]
+  Evaluation Type: probing
+    Task: pik3ca          | k=1  | auc=46.352 +/- 8.448, bacc=47.579 +/- 6.729
+    Task: pik3ca          | k=5  | auc=54.674 +/- 7.659, bacc=54.301 +/- 6.020
+    Task: pik3ca          | k=10 | auc=58.903 +/- 7.387, bacc=55.344 +/- 6.208
+    Task: pik3ca          | k=25 | auc=64.000 +/- 6.093, bacc=61.397 +/- 4.433
+    Task: tp53            | k=1  | auc=62.810 +/- 12.497, bacc=57.652 +/- 8.946
+    Task: tp53            | k=5  | auc=74.173 +/- 6.202, bacc=67.778 +/- 5.885
+    Task: tp53            | k=10 | auc=76.386 +/- 3.564, bacc=70.451 +/- 4.236
+    Task: tp53            | k=25 | auc=79.952 +/- 3.600, bacc=73.583 +/- 3.619
+  Evaluation Type: prototyping
+    Task: pik3ca          | k=1  | auc=47.028 +/- 8.545, bacc=47.765 +/- 6.362
+    Task: pik3ca          | k=5  | auc=54.601 +/- 8.013, bacc=52.145 +/- 6.482
+    Task: pik3ca          | k=10 | auc=57.884 +/- 7.201, bacc=56.054 +/- 6.235
+    Task: pik3ca          | k=25 | auc=63.489 +/- 4.330, bacc=59.638 +/- 4.318
+    Task: tp53            | k=1  | auc=62.283 +/- 12.760, bacc=57.765 +/- 8.481
+    Task: tp53            | k=5  | auc=74.117 +/- 5.261, bacc=66.907 +/- 5.031
+    Task: tp53            | k=10 | auc=76.471 +/- 4.253, bacc=67.957 +/- 4.050
+    Task: tp53            | k=25 | auc=81.583 +/- 3.725, bacc=75.821 +/- 5.925
+--------------------------------------------------
