@@ -1,6 +1,6 @@
-# MICCAI2026-48-PhiOmni
+# MICCAI2026-PhiOmni
 
-This project is a codebase for submission#48: Synergistic Information Disentanglement for Omni-modal Slide Representation Learning in Computational Pathology submitted to MICCAI 2026. It includes modules for data processing, model training, and downstream tasks.
+This project is a codebase for paper entitled: Synergistic Information Disentanglement for Omni-modal Slide Representation Learning in Computational Pathology which early accepted by MICCAI 2026. It includes modules for data processing, model training, and downstream tasks.
 
 ## Directory Structure
 
@@ -49,4 +49,4 @@ README.md            # Project documentation
 
 ## Contact
 
-This submission is still double-blind under-review, we will provide more details about this project and concat informations upon acceptance.
+Mingxin Liu: mxliu.mercy@gmail.com
